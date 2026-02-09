@@ -1,0 +1,43 @@
+EE708 Term Projects 
+ 
+Project 1: ShiftGuard10: Robust Image Classification 
+ 
+Dataset Description: 32�32 RGB images from 10 classes (airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck) 
+- Training set: labeled images (train_images/) + labels file (train_labels.csv) 
+- Test 	set: 	unlabeled 	images 	(test_images/) 	+ 	submission 	template 
+(sample_submission.csv) 
+- Class names: listed in classes.txt 
+Task: Train a model using only the training data and predict the class label for each test image. 
+Metric: Macro F1 (F1-score with macro averaging across 10 classes) 
+Submission for code evaluation: Submit a Notebook that will generate a CSV with exactly two columns: 
+- id: image id (e.g., 000001) 
+- label: predicted class name (must be one of the 10 class names) 
+ 
+Use sample_submission.csv as the template. Follow its formatting exactly.  
+ 
+Rules 
+1. Kaggle Team: 
+- After joining the competition, one team member must send an invite to all other group members once they have also joined. 
+- The team name should be the Group number, for example, �Group 1�.  
+2. Notebook-only submissions 
+- You must submit using a Kaggle Notebook (Notebook-based submission). 
+- File upload-based submission is not allowed.  
+- Do not upload a CSV generated outside Kaggle. 
+- Your notebook must: 
+- train the model from scratch 
+- Run inference on the test set 
+- Write the submission CSV 
+3. No external data /no pretrained models 
+- You may use only the competition data provided. 
+- No external datasets, no extra images, no web data, no scraping. 
+- The model must be trained from scratch. 
+- No pretrained weights (ImageNet, self-supervised checkpoints, etc.). 
+- No importing external checkpoints from Kaggle Datasets. - No external data /no pretrained models 
+4. Reproducibility required: Your notebook must be reproducible: 
+- include training + inference code 
+- run end-to-end on Kaggle 
+- avoid hidden manual steps 
+5. Integrity/Fair Play 
+- Do not attempt to reverse-engineer hidden labels. 
+- Do not copy other teams� outputs. 
+- Do not exploit loopholes in the evaluation process. Violations may lead to disqualification. 
